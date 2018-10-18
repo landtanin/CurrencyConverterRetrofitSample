@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.user.currencyconverter.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Converter"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/GBP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="GBP - British Pound Sterling"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/convert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert GBP"
+        android:onClick="click1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/THB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="THB - Thai Baht"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/convert2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Convert THB"-->
+        <!--android:onClick="click2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_gravity="center_horizontal"/>-->
+
+    <EditText
+        android:id="@+id/USD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="USD - US Dollar"
+        android:textAlignment="center" />
+
+    <EditText
+    android:id="@+id/EUR"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="EUR - Euro"
+    android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/AUD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="AUD - Australian Dollar"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/CNY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CNY - Chinese Yuan"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/JPY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="JPY - Japanese Yen"
+        android:textAlignment="center" />
+    <!--<Button-->
+        <!--android:id="@+id/convert3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Convert USD"-->
+        <!--android:onClick="click3"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_gravity="center_horizontal"/>-->
+
+    <Button
+        android:id="@+id/rates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rates"
+        android:onClick="rates"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="reset"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout >
